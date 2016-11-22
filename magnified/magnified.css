@@ -1,0 +1,84 @@
+body{ 
+	background: #F3D79B;
+	width: 100%;
+	margin: auto;
+	
+}
+
+.container{
+	width: 50%;
+	height: 50%;
+	padding: 5px;
+	position: relative;
+	margin: auto;	
+	
+}
+
+
+.title{
+	font-family: Avenir Next;
+	font-size: 64px;
+	padding: 10px;
+}
+
+/*Logo and image stuff*/
+img{
+	display: block;
+	width: 50%;
+	text-align: center;
+	margin: auto;
+}
+
+.icon{
+  width: calc(100% - 30px);
+  padding: 10px;
+  margin:10px;
+}
+
+/*Search Bar*/
+
+input {
+  width: calc(100% - 10px);
+  box-sizing: border-box;
+  padding: 10px; 
+  margin: 10px;
+  text-align: left;
+  color: black;
+  cursor: text;
+}
+
+/*navigation bar stuff*/
+
+.nav{
+	display: inline;
+	font-family: Avenir Next;
+	font-size: 36px;
+	margin: 0;
+	padding: 0;
+	position: relative;	
+	text-align: center;
+}
+
+li {
+    float: left;
+    margin: 0;
+    padding:0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li a {
+    display: block;
+    padding: 8px;
+    text-align: center;
+}
+
+/*button stuff*/
+
+.go{
+	float: left;
+}
